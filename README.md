@@ -16,7 +16,7 @@
 ​
   3. Impact of Part Material or Color on Set Price: Formulating conjectures regarding the potential influence of part material or color on set prices. This analysis intends to uncover whether sets featuring specific materials or colors command varied prices due to rarity or perceived desirability.
 ​
-  4. Effect of Collaboration on LEGO Set Prices: Assessing the average cost disparity between collaboratively produced LEGO sets and those developed solely by the LEGO company. This hypothesis aims to determine if collaboration significantly impacts set prices.
+  4. Effect of Collaboration on LEGO Set star ratings and reviews : Assess if LEGO sets created through collaboration significantly differ in average star rating and number of reviews given.  
 ​
   5. Relationship Between Piece Count and LEGO Set Prices: Investigating the potential correlation between quoted prices and the quantity of pieces within LEGO sets. This analysis aims to explore whether higher piece counts within sets tend to correlate with increased prices.
 ​
@@ -34,22 +34,17 @@
   7. sort_values(): This function helps arrange data for analysis or display by sorting DataFrame rows in either ascending or descending order according to the provided column(s).
   8. mean(): Determines the average value, which is generally utilized in conjunction with groupby() or on particular columns to extract averages for numerical data.
 ​
-  Visualization:
-  1. plot(): Provides a visual depiction of data trends or relationships by creating several kinds of plots (line, bar, scatter, etc.) based on the data in a DataFrame.
-  2. plt (Matplotlib): Matplotlib is a feature-rich Python visualization toolkit that can be used to create static, interactive, and animated graphics. To generate a variety of visualizations, it comes with a number of functions like plt.plot(), plt.bar(), plt.scatter(), and others.
-
   These techniques offer a basic toolset for Python data manipulation and visualization, making it possible to efficiently clean, filter, aggregate, and visualize data in order to obtain insights and effectively convey findings. These techniques can be combined and applied in different orders to carry out thorough data analysis and visualization, depending on the demands of the particular project.
 # Technologies
 ​
   List with used technologies:
   - Python
   - Pandas
-  - Matplotlib.pyplot
+  - MySQL
 ​
-  Together, these technologies provide a strong foundation for Python data analysis and visualization. Matplotlib is used for visualization, but Pandas forms the core for data manipulation and analysis.Python programmers may easily explore and share insights from data with the help of pyplot, which offers a versatile toolkit for building visuals.
-# Project Description
+  Together, these technologies provide a strong foundation for Python data analysis and visualization.
 ​
-  Analyzing Factors Influencing LEGO Set Prices
+  # Analyzing Factors Influencing LEGO Set Prices
 ​
   Using the combined strength of two separate datasets, this study provides a thorough understanding of LEGO kits and their characteristics. Years, theme names, set names, URLs, part categories and descriptions (materials, colors, transparency), and pricing information (set prices, number of reviews, and star ratings) are all included in the first dataset. A variety of parameters are included in the second dataset, including component counts, ages, list prices, reviews (both number and rating), description information, review challenges, and collaboration status.
 ​
