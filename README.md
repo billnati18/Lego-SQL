@@ -62,24 +62,14 @@ This dataset is released under the CC0: Public Domain Dedication. You are free t
 2. Getting Started
 
 - Follow these steps to use the dataset:
- - Download the dataset from the Kaggle page: [LEGO Sets and Price Dataset]
-   (https://www.kaggle.com/datasets/alessiasimone/lego-sets-and-price-1955-2023/).
+ - Open the clean file to use the 2 original csv files used on the dataset.
  - Extract the downloaded file to the location of your choice.
- - Change the name of the extracted file from `Output.csv` to the desired name you want to use.
- - Optionally, you can use the CSV file provided in this repository. There is a file named `lego_sets.csv` that you can directly use in your code.
+ - Run the separate file.
+ - Lastly run the import file to be able to have the tables in MySQL. 
 
-3. Usage:
-  You can use the dataset in your code by updating the file name in the `read_csv` function. For example, if you want to     use the file provided in the repository, you can read it in Python using:
+  If you find any issues with the dataset or have improvements to suggest, please feel free to contribute. Follow the standard GitHub flow:
 
-  '''import pandas as pd,
-  file_name = 'lego_sets.csv',
-  lego_data = pd.read_csv(file_name)'''
-
-  Now you can explore and analyze the LEGO dataset!
-
-  If you find any issues with the dataset or have improvements to suggest, please feel free to contribute. Follow the        standard GitHub flow:
-
-4. Fork the repository:
+3. Fork the repository:
   - Create a new branch: git checkout -b feature/your-feature.
   - Make your changes and commit them: git commit -m 'Add your feature'.
   - Push to the branch: git push origin feature/your-feature.
@@ -91,4 +81,4 @@ If you have any questions, encounter issues, or want to contribute, please feel 
 
 
 # Presentation
-  Link : https://www.canva.com/design/DAF2y-dUM0M/EpigKxZEfDYVKGjdYF-XOg/edit?utm_content=DAF2y-dUM0M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+  Link : https://www.canva.com/design/DAF41glPZbQ/l9xPEgz3-kLTKnCdrHY-Wg/view?utm_content=DAF41glPZbQ&utm_campaign=designshare&utm_medium=link&utm_source=editor
