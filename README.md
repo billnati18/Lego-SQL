@@ -41,7 +41,7 @@
   - Python
   - Pandas
   - MySQL
-​
+    
   Together, these technologies provide a strong foundation for Python data analysis and visualization.
 ​
   # Analyzing Factors Influencing LEGO Set Prices
